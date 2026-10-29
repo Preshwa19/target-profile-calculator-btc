@@ -1,0 +1,36 @@
+{
+  "name": "crypto-target-profit-calculator",
+  "private": true,
+  "version": "crypto-target-profit-calculator0",
+  "description": "Work out the selling price per coin needed to reach a profit target after buying and selling fees, with a take-profit price ladder. Free, private, runs in your browser.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.5",
+    "vitest": "^5.0.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "keywords": [
+    "crypto",
+    "profit-target",
+    "calculator",
+    "trading-fees",
+    "react",
+    "vite"
+  ],
+  "license": "MIT"
+}
